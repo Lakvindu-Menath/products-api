@@ -3,6 +3,7 @@ package uk.ac.westminster.products_api;
 public class Product {
     private Long id;
     private String name;
+    private double price;
 
     public void setId(Long id) {
         this.id = id;
@@ -15,8 +16,6 @@ public class Product {
     public void setPrice(double price) {
         this.price = price;
     }
-
-    private double price;
 
     public Product() {}
 
